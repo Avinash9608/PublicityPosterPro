@@ -5,12 +5,12 @@ const posterTemplates = [
     type: "florida-night",
     backgroundColor: "#0a1f3a",
     overlayColor: "rgba(10, 31, 58, 0.6)",
-    textPosition: { 
-      top: "50%", 
-      left: "50%", 
-      transform: "translate(-50%, -50%)", 
+    textPosition: {
+      top: "50%",
+      left: "50%",
+      transform: "translate(-50%, -50%)",
       textAlign: "center",
-      width: "90%"
+      width: "90%",
     },
     title: "SATURDAY NIGHT",
     titleColor: "#ffffff",
@@ -37,8 +37,9 @@ const posterTemplates = [
         font-weight: 600;
       }
     `,
-    previewImage: "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    locked: true
+    previewImage:
+      "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    locked: true,
   },
   {
     id: 301,
@@ -46,11 +47,11 @@ const posterTemplates = [
     type: "florida-beach",
     backgroundColor: "#0077b6",
     overlayColor: "rgba(0, 119, 182, 0.4)",
-    textPosition: { 
-      bottom: "100px", 
-      left: "50px", 
+    textPosition: {
+      bottom: "100px",
+      left: "50px",
       textAlign: "left",
-      width: "80%"
+      width: "80%",
     },
     title: "FLORIDA BEACH",
     titleColor: "#ffffff",
@@ -75,8 +76,9 @@ const posterTemplates = [
         text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
       }
     `,
-    previewImage: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    locked: true
+    previewImage:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    locked: true,
   },
   {
     id: 302,
@@ -84,11 +86,11 @@ const posterTemplates = [
     type: "florida-neon",
     backgroundColor: "#1a1a2e",
     overlayColor: "rgba(106, 13, 173, 0.5)",
-    textPosition: { 
-      top: "40%", 
-      right: "50px", 
+    textPosition: {
+      top: "40%",
+      right: "50px",
       textAlign: "right",
-      width: "60%"
+      width: "60%",
     },
     title: "MIAMI NIGHTS",
     titleColor: "#f72585",
@@ -114,8 +116,9 @@ const posterTemplates = [
         font-weight: 700;
       }
     `,
-    previewImage: "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    locked: true
+    previewImage:
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    locked: true,
   },
   {
     id: 303,
@@ -123,11 +126,11 @@ const posterTemplates = [
     type: "florida-retro",
     backgroundColor: "#ff9e00",
     overlayColor: "rgba(255, 158, 0, 0.3)",
-    textPosition: { 
-      top: "30%", 
-      left: "50px", 
+    textPosition: {
+      top: "30%",
+      left: "50px",
       textAlign: "left",
-      width: "70%"
+      width: "70%",
     },
     title: "RETRO FLORIDA",
     titleColor: "#540d6e",
@@ -152,20 +155,21 @@ const posterTemplates = [
         font-weight: 600;
       }
     `,
-    previewImage: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    locked: true
+    previewImage:
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    locked: true,
   },
   {
     id: 400,
     name: "Star Wars Parallax",
     type: "parallax",
     backgroundColor: "#fff2d7",
-    textPosition: { 
-      top: "50px", 
-      left: "50%", 
-      transform: "translateX(-50%)", 
+    textPosition: {
+      top: "50px",
+      left: "50%",
+      transform: "translateX(-50%)",
       textAlign: "center",
-      width: "80%"
+      width: "80%",
     },
     title: "STAR WARS",
     titleColor: "#000000",
@@ -207,16 +211,35 @@ const posterTemplates = [
       }
     `,
     layers: [
-      { url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-profile_copy_copy.png", depth: 0 },
-      { url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-eyes_copy.png", depth: 0.7 },
-      { url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-foreground-test.png", depth: 0.5 },
-      { url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-base-2_copy.png", depth: 0.4 },
-      { url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po--base-1_copy.png", depth: 0.3 },
-      { url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-base-test.png", depth: 0.2 }
+      {
+        url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-profile_copy_copy.png",
+        depth: 0,
+      },
+      {
+        url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-eyes_copy.png",
+        depth: 0.7,
+      },
+      {
+        url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-foreground-test.png",
+        depth: 0.5,
+      },
+      {
+        url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-base-2_copy.png",
+        depth: 0.4,
+      },
+      {
+        url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po--base-1_copy.png",
+        depth: 0.3,
+      },
+      {
+        url: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-base-test.png",
+        depth: 0.2,
+      },
     ],
-    previewImage: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-profile_copy_copy.png",
-    locked: true
-  }
+    previewImage:
+      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/36124/c3po-profile_copy_copy.png",
+    locked: true,
+  },
 ];
 
 export default posterTemplates;
