@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import PreviewCard from "./PreviewCard";
-import TemplateSelector from "./TemplateSelector";
+import TemplateSelector from "./Templateselector";
 import posterTemplates from "./PosterTemplates";
 
 const PosterDesigner = ({ onSave }) => {
