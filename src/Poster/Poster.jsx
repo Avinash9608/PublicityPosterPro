@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import PreviewCard from "./PreviewCard";
-import TemplateSelector from "./TemplateSelector.jsx";
-import posterTemplates from "./PosterTemplates.jsx";
+import TemplateSelector from "./TemplateSelector";
+import posterTemplates from "./PosterTemplates";
 
 const PosterDesigner = ({ onSave }) => {
   const [selectedTemplate, setSelectedTemplate] = useState(posterTemplates[0]);

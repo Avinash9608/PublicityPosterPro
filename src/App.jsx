@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PosterDesigner from "./Poster/Poster.jsx";
-import PosterGallery from "./Poster/PosterGallery.jsx";
-import TemplateEditor from "./Poster/TemplateEditor.jsx";
+import PosterDesigner from "./Poster/Poster";
+import PosterGallery from "./Poster/PosterGallery";
+import TemplateEditor from "./Poster/TemplateEditor";
 
 function App() {
   const [savedPosters, setSavedPosters] = useState([]);
